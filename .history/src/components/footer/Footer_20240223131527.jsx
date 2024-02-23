@@ -22,7 +22,7 @@ const Footer = () => {
                 build something remarkable, together.
               </p>
             </div>
-            <div className="flex w-[350px] max-lg:w-[450px] h-[130px] max-lg:h-[160px] flex-col gap-3 px-3 py-5 bg-white rounded-2xl shadow-slate-50 items-center justify-center mt-3 max-md:w-full">
+            <div className="flex w-[150px] h-[130px] max-lg:h-[160px] flex-col gap-3 px-3 py-5 bg-white rounded-2xl shadow-slate-50 max-lg:w-full items-center justify-center mt-3 max-md:w-full">
               <div className="flex flex-row w-full justify-center gap-2 text-black max-lg:flex-col">
                 <div className="flex flex-row gap-2 w-full">
                   <a
@@ -57,14 +57,14 @@ const Footer = () => {
                 </a>
               </div>
               <div className="j flex flex-row h-[40px] gap-4 w-full items-center justify-evenly ">
-                <button className=" flex items-center justify-center px-3 py-2 bg-[#262D43] hover:bg-[#2C698D] text-white rounded-md w-full">
+                <button className=" flex items-center justify-center px-3 py-2 bg-[#262D43] hover:bg-[#2C698D] text-white rounded-md max-lg:w-full">
                   Download Cv
                   <span className="ml-2">
                     <i className="ri-download-2-line"></i>
                   </span>
                 </button>
                 <button
-                  className="flex items-center justify-center px-3 py-1.5 border-2 hover:bg-[#2C698D] hover:text-white border-[#2C698D] rounded-md w-full"
+                  className="flex items-center justify-center px-3 py-1.5 border-2 hover:bg-[#2C698D] hover:text-white border-[#2C698D] rounded-md max-lg:w-full"
                   onClick={() => smoothScroll("Contact")}
                 >
                   Hire Me{" "}

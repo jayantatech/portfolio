@@ -16,13 +16,14 @@ const Footer = () => {
                 <Link to={"/"}>
                   <MyImage src={footerLogo} className=" w-full h-full" />
                 </Link>
+                {/* <img src={footerLogo} alt="" className="h-full" /> */}
               </div>
               <p className="font-[poppins] text-white">
                 Crafting clean code, crafting compelling experiences. Let's
                 build something remarkable, together.
               </p>
             </div>
-            <div className="flex w-[350px] max-lg:w-[450px] h-[130px] max-lg:h-[160px] flex-col gap-3 px-3 py-5 bg-white rounded-2xl shadow-slate-50 items-center justify-center mt-3 max-md:w-full">
+            <div className="flex w-1/3 h-[130px] max-lg:h-[160px] mx-20 flex-col gap-3 px-3 py-5 bg-white rounded-2xl shadow-slate-50 max-lg:w-4/5 items-center justify-center mt-3 max-md:w-full">
               <div className="flex flex-row w-full justify-center gap-2 text-black max-lg:flex-col">
                 <div className="flex flex-row gap-2 w-full">
                   <a
@@ -57,14 +58,14 @@ const Footer = () => {
                 </a>
               </div>
               <div className="j flex flex-row h-[40px] gap-4 w-full items-center justify-evenly ">
-                <button className=" flex items-center justify-center px-3 py-2 bg-[#262D43] hover:bg-[#2C698D] text-white rounded-md w-full">
+                <button className=" flex items-center justify-center px-3 py-2 bg-[#262D43] hover:bg-[#2C698D] text-white rounded-md max-lg:w-[70%]">
                   Download Cv
                   <span className="ml-2">
                     <i className="ri-download-2-line"></i>
                   </span>
                 </button>
                 <button
-                  className="flex items-center justify-center px-3 py-1.5 border-2 hover:bg-[#2C698D] hover:text-white border-[#2C698D] rounded-md w-full"
+                  className="flex items-center justify-center px-3 py-1.5 border-2 hover:bg-[#2C698D] hover:text-white border-[#2C698D] rounded-md max-lg:w-[30%]"
                   onClick={() => smoothScroll("Contact")}
                 >
                   Hire Me{" "}
