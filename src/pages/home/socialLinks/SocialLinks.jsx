@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
-import { twitter, linkedin, github } from "../../../assets/icons";
+import { Twitter, linkedin, github } from "../../../assets/icons";
 import MyImage from "../../../components/myImage/MyImage";
 
 const SocialLinks = () => {
@@ -43,7 +43,7 @@ const SocialLinks = () => {
             </a>
             <a href="https://twitter.com/_Jayantabiswas" target="_blank">
               <div className="flex flex-row items-center gap-3  bg-white px-4 py-2 rounded-xl cursor-pointer shadow-lg max-lg:gap-1 max-lg:px-3 max-lg:py-2 hover:shadow-2xl  transition-all duration-200 max-sm:flex-row max-sm:py-2  max-sm:px-8 max-sm:gap-3">
-                <MyImage src={twitter} className={"w-12"} />
+                <MyImage src={Twitter} className={"w-12"} />
                 <span className="text-3xl font-[Roboto] font-semibold max-sm:text-2xl">
                   Twitter
                 </span>
