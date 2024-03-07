@@ -1,10 +1,10 @@
+import MyImage from "../myImage/MyImage.jsx";
 import React, { useEffect, useState } from "react";
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 import { logo } from "../../assets/images";
 import { Link, useLocation, useParams } from "react-router-dom";
 import { headersSection } from "./../../assets/content/index.js";
 import HeaderOptions from "../headerOptions/HeaderOptions.jsx";
-import MyImage from "../myImage/myImage.jsx";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
