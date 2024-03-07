@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
-import MyImage from "../../../components/myImage/myImage";
+import MyImage from "../../../components/myImage/MyImage";
 import { heroImg } from "../../../assets/images";
 import { BgShape, BgShape3 } from "../../../assets/icons";
 import { smoothScroll } from "../../../utility/smoothScroll";

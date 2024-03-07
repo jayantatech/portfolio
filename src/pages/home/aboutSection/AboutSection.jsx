@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { heroImg } from "../../../assets/images";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
-import MyImage from "../../../components/myImage/myImage";
+import MyImage from "../../../components/myImage/MyImage";
 import UseIntersectionObserver from "../../../hooks/UseIntersectionObserver";
 
 const AboutSection = () => {

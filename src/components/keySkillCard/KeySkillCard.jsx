@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { jsIcon } from "../../assets/icons";
 import bgWifi from "../../assets/images/bgWifi.png";
-import MyImage from "../myImage/myImage";
+import MyImage from "../myImage/MyImage";
 
 const KeySkillCard = ({ title, img, description }) => {
   const [mouseOver, setMouseOver] = useState(false);
