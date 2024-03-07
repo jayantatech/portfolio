@@ -2,7 +2,7 @@ import React from "react";
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 import { footerLogo } from "../../assets/images";
 import { Link } from "react-router-dom";
-import MyImage from "../myImage/myImage";
+import MyImage from "../myImage/MyImage";
 import { smoothScroll } from "../../utility/smoothScroll";
 
 const Footer = () => {
