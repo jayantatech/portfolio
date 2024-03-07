@@ -2,7 +2,7 @@ import jsIcon from "./js.png";
 import reactIcon from "./reactjs.png";
 import telwindCss from "./tailwind.png";
 import git from "./git-icon.png";
-import Twitter from "./twitter.png";
+import twitter from "./twitter.png";
 import linkedin from "./linkedin.png";
 import github from "./github.png";
 import css from "./css.png";
@@ -35,7 +35,7 @@ export {
   telwindCss,
   Typescript,
   git,
-  Twitter,
+  twitter,
   linkedin,
   github,
   css,
