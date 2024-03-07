@@ -13,8 +13,8 @@ import {
   Redux,
   Typescript,
 } from "../../../assets/icons";
-import MyImage from "../../../components/myImage/myImage";
 import UseIntersectionObserver from "../../../hooks/UseIntersectionObserver";
+import MyImage from "../../../components/myImage/MyImage";
 
 const Skills = () => {
   const [load, SetLoad] = useState(false);

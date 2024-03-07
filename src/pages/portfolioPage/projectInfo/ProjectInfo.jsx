@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
-import MyImage from "../../../components/myImage/myImage";
 import { css } from "../../../assets/icons";
 import UseIntersectionObserver from "../../../hooks/UseIntersectionObserver";
+import MyImage from "../../../components/myImage/MyImage";
 
 const ProjectInfo = ({ data }) => {
   const [load, SetLoad] = useState(false);

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import { twitter, linkedin, github } from "../../../assets/icons";
-import MyImage from "../../../components/myImage/myImage";
+import MyImage from "../../../components/myImage/MyImage";
 
 const SocialLinks = () => {
   const [scroll, setScroll] = useState(false);
