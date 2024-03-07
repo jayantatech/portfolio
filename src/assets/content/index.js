@@ -3,7 +3,7 @@ import {
   reactIcon,
   telwindCss,
   git,
-  twitter,
+  Twitter,
   linkedin,
   github,
   css,

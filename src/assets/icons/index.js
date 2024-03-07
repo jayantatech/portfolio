@@ -10,24 +10,24 @@ import bootstrap from "./bootstrap.png";
 import html from "./html.png";
 import wordpress from "./wordpress.png";
 import BgShape from "./bgshape.png";
-import BgShape2 from "./BgShape2.png";
-import BgShape3 from "./BgShape3.png";
-import Success from "./Success.png";
-import DeskCalendar from "./DeskCalendar.png";
+import BgShape2 from "./bgShape2.png";
+import BgShape3 from "./bgShape3.png";
+import Success from "./success.png";
+import DeskCalendar from "./deskCalendar.png";
 import Book from "./book.png";
-import Bullseye from "./Bullseye.png";
-import Elementor from "./Elementor.png";
-import Rankmath from "./Rankmath.png";
+import Bullseye from "./bullseye.png";
+import Elementor from "./elementor.png";
+import Rankmath from "./rankmath.png";
 import TMDB from "./TMDB.png";
-import Vercel from "./Vercel.png";
-import Redux from "./Redux.png";
-import Hostinger from "./Hostinger.png";
+import Vercel from "./vercel.png";
+import Redux from "./redux.png";
+import Hostinger from "./hostinger.png";
 import Sukrahod from "./sukrahod.png";
 import ScssLogo from "./scssLogo.png";
 import searchConsole from "./searchConsole.png";
 import googleAnalytics from "./googleAnalytics.png";
-import Typescript from "./Typescript.png";
-import NpmLogo from "./NpmLogo.png";
+import Typescript from "./typescript.png";
+import NpmLogo from "./npmLogo.png";
 
 export {
   jsIcon,
