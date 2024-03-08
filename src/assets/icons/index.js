@@ -15,7 +15,7 @@ import backgroundshape3 from "./backgroundshapethree.png";
 import Success from "./successimage.png";
 import DeskCalendar from "./deskcalendarimage.png";
 import Book from "./book.png";
-import Bullseye from "./bullseye.png";
+import Bullseye from "./bullseyeimage.png";
 import Elementor from "./elementor.png";
 import Rankmath from "./rankmath.png";
 import TMDB from "./TMDB.png";
