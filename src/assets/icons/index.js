@@ -9,7 +9,7 @@ import css from "./css.png";
 import bootstrap from "./bootstrap.png";
 import html from "./html.png";
 import wordpress from "./wordpress.png";
-import BgShape from "./BgShape.png";
+import bgShape from "./bgshape.png";
 import BgShape2 from "./bgShape2.png";
 import BgShape3 from "./bgShape3.png";
 import Success from "./success.png";
