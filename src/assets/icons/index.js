@@ -9,9 +9,9 @@ import css from "./css.png";
 import bootstrap from "./bootstrap.png";
 import html from "./html.png";
 import wordpress from "./wordpress.png";
-import bgshape from "./bgshape.png";
-import bgshape2 from "./bgshape2.png";
-import bgshape3 from "./bgshape3.png";
+import backgroundshape from "./bgshape.png";
+import backgroundshape2 from "./bgshape2.png";
+import backgroundshape3 from "./bgshape3.png";
 import Success from "./success.png";
 import DeskCalendar from "./deskCalendar.png";
 import Book from "./book.png";
@@ -42,9 +42,9 @@ export {
   bootstrap,
   html,
   wordpress,
-  bgshape,
-  bgshape2,
-  bgshape3,
+  backgroundshape,
+  backgroundshape2,
+  backgroundshape3,
   DeskCalendar,
   Success,
   Book,
