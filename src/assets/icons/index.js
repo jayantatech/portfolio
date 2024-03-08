@@ -9,7 +9,6 @@ import css from "./css.png";
 import bootstrap from "./bootstrap.png";
 import html from "./html.png";
 import wordpress from "./wordpress.png";
-import BgShape from "./bgshape.png";
 import BgShape2 from "./bgShape2.png";
 import BgShape3 from "./bgShape3.png";
 import Success from "./success.png";
@@ -28,6 +27,7 @@ import searchConsole from "./searchConsole.png";
 import googleAnalytics from "./googleAnalytics.png";
 import Typescript from "./typescript.png";
 import NpmLogo from "./npmLogo.png";
+import BgShape from "./bgshape.png";
 
 export {
   jsIcon,
