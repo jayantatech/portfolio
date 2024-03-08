@@ -9,8 +9,9 @@ import css from "./css.png";
 import bootstrap from "./bootstrap.png";
 import html from "./html.png";
 import wordpress from "./wordpress.png";
-import BgShape2 from "./bgShape2.png";
-import BgShape3 from "./bgShape3.png";
+import bgshape from "./bgshape.png";
+import bgshape2 from "./bgshape2.png";
+import bgshape3 from "./bgshape3.png";
 import Success from "./success.png";
 import DeskCalendar from "./deskCalendar.png";
 import Book from "./book.png";
@@ -27,7 +28,6 @@ import searchConsole from "./searchConsole.png";
 import googleAnalytics from "./googleAnalytics.png";
 import Typescript from "./typescript.png";
 import NpmLogo from "./npmLogo.png";
-import BgShape from "./bgshape.png";
 
 export {
   jsIcon,
@@ -42,9 +42,9 @@ export {
   bootstrap,
   html,
   wordpress,
-  BgShape,
-  BgShape2,
-  BgShape3,
+  bgshape,
+  bgshape2,
+  bgshape3,
   DeskCalendar,
   Success,
   Book,

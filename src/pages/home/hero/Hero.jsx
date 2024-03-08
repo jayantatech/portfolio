@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import MyImage from "../../../components/myImage/MyImage";
 import { heroImg } from "../../../assets/images";
-import { BgShape, BgShape3 } from "../../../assets/icons";
+import { bgshape, bgshape3 } from "../../../assets/icons";
 import { smoothScroll } from "../../../utility/smoothScroll";
 import UseIntersectionObserver from "../../../hooks/UseIntersectionObserver";
 
@@ -27,7 +27,7 @@ const Hero = () => {
               } xl:pt-24`}
             >
               <span className=" absolute top-0 xl:top-20 left-0 max-md:hidden">
-                <img src={BgShape} alt="shapeHero" className="-rotate-90" />
+                <img src={bgshape} alt="shapeHero" className="-rotate-90" />
               </span>
               <h2 className=" text-8xl font-[Roboto] font-semibold max-xl:text-5xl">
                 Hi I am
@@ -91,7 +91,7 @@ const Hero = () => {
             >
               <div className="w-full h-full relative">
                 <span className=" absolute xl:top-48 rotate-90 xl:right-10 max-lg:top-32 max-lg:right-4">
-                  <img src={BgShape3} alt="shapeHero" className="-rotate-90" />
+                  <img src={bgshape3} alt="shapeHero" className="-rotate-90" />
                 </span>
                 <div className="w-full h-full absolute xl:bottom-[-40px]">
                   <MyImage

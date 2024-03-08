@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import copy from "clipboard-copy";
 
-import { BgShape, BgShape2 } from "../../../assets/icons";
+import { bgshape, bgshape2 } from "../../../assets/icons";
 import UseIntersectionObserver from "../../../hooks/UseIntersectionObserver";
 
 const ContactSection = () => {
@@ -45,11 +45,11 @@ const ContactSection = () => {
             }`}
           >
             <div className="w-24 h-24 p-2 rotate-180 rounded-full absolute top-0 left-0 -translate-y-14 ">
-              <img src={BgShape} alt="" className="w-full h-full" />
+              <img src={bgshape} alt="" className="w-full h-full" />
             </div>
             <div className="w-28 h-28 p-2 absolute bottom-0 right-0  translate-y-28">
               <img
-                src={BgShape}
+                src={bgshape}
                 alt=""
                 className="w-full h-full max-lg:-translate-y-12 max-md:-translate-y-28"
               />
