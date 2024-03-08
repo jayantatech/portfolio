@@ -13,7 +13,7 @@ import backgroundshape from "./backgroundshape.png";
 import backgroundshape2 from "./backgroundshapetwo.png";
 import backgroundshape3 from "./backgroundshapethree.png";
 import Success from "./successimage.png";
-import DeskCalendar from "./deskCalendar.png";
+import DeskCalendar from "./deskcalendarimage.png";
 import Book from "./book.png";
 import Bullseye from "./bullseye.png";
 import Elementor from "./elementor.png";
