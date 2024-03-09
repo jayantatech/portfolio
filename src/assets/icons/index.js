@@ -26,7 +26,7 @@ import Sukrahod from "./sukrahodimage.png";
 import ScssLogo from "./scssLogo.png";
 import searchConsole from "./searchConsole.png";
 import googleAnalytics from "./googleAnalytics.png";
-import Typescript from "./typescript.png";
+import Typescript from "./typescriptimage.png";
 import NpmLogo from "./npmLogo.png";
 
 export {
