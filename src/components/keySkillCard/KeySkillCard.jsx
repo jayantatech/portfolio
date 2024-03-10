@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { jsIcon } from "../../assets/icons";
-import bgWifi from "../../assets/images/bgWifi.png";
 import MyImage from "../myImage/MyImage";
 
 const KeySkillCard = ({ title, img, description }) => {

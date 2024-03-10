@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import copy from "clipboard-copy";
 
-import { backgroundshape, backgroundshape2 } from "../../../assets/icons";
+import { backgroundshape } from "../../../assets/icons";
 import UseIntersectionObserver from "../../../hooks/UseIntersectionObserver";
 
 const ContactSection = () => {

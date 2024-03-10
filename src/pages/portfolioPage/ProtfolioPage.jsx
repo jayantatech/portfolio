@@ -17,7 +17,6 @@ const ProtfolioPage = () => {
       <ProjectHero data={newData} />
       <ProjectInfo data={newData} />
       <ContactSection data={newData} />
-      {/* <div className=" w-full h-[3025px]"></div> */}
     </>
   );
 };

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { projectImg } from "../../assets/images";
 import { useNavigate } from "react-router-dom";
 import MyImage from "../myImage/MyImage";
 

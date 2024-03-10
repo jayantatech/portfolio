@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import MyImage from "../../../components/myImage/MyImage";
-import { heroImg } from "../../../assets/images";
+import { heroImg, jayantahero } from "../../../assets/images";
 import { backgroundshape, backgroundshape3 } from "../../../assets/icons";
 import { smoothScroll } from "../../../utility/smoothScroll";
 import UseIntersectionObserver from "../../../hooks/UseIntersectionObserver";
@@ -26,14 +26,14 @@ const Hero = () => {
                 scroll ? "translate-x-0" : "-translate-x-[200%]"
               } xl:pt-24`}
             >
-              <span className=" absolute top-0 xl:top-20 left-0 max-md:hidden">
+              <span className=" absolute top-0 xl:top-20 left-20 max-md:hidden">
                 <img
                   src={backgroundshape}
                   alt="shapeHero"
                   className="-rotate-90"
                 />
               </span>
-              <h2 className=" text-8xl font-[Roboto] font-semibold max-xl:text-5xl">
+              <h2 className=" text-4xl font-[Roboto] font-semibold max-xl:text-3xl">
                 Hi I am
               </h2>
               <h2 className=" text-7xl font-[Roboto] font-semibold max-xl:text-5xl">
@@ -93,7 +93,7 @@ const Hero = () => {
                 scroll ? "translate-y-0" : " translate-y-[950px]"
               }`}
             >
-              <div className="w-full h-full relative">
+              <div className="w-full h-full relative bg-re">
                 <span className=" absolute xl:top-48 rotate-90 xl:right-10 max-lg:top-32 max-lg:right-4">
                   <img
                     src={backgroundshape3}
@@ -101,10 +101,14 @@ const Hero = () => {
                     className="-rotate-90"
                   />
                 </span>
-                <div className="w-full h-full absolute xl:bottom-[-40px]">
-                  <MyImage
+                <div className="w-full h-full relative xl:translate-y-10 max-xl:translate-y-32 max-md:translate-y-24 xl:bottom-[-40px] ">
+                  {/* <MyImage
                     src={heroImg}
                     className="w-[440px] max-lg:w-[450px]"
+                  /> */}
+                  <MyImage
+                    src={jayantahero}
+                    className=" xl:w-[810px] max-lg:w-[750px] max-lg:scale-125 max-xl:w-[770px] max-md:scale-[1.5]"
                   />
                 </div>
               </div>

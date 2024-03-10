@@ -4,4 +4,13 @@ import heroImg from "./me-image.png";
 import projectImg from "./projectImg.png";
 import botwavetech from "./botwavetech.png";
 import movieHome from "./movieHome.png";
-export { logo, botwavetech, heroImg, projectImg, footerLogo, movieHome };
+import jayantahero from "./Jayantahero.png";
+export {
+  logo,
+  botwavetech,
+  heroImg,
+  projectImg,
+  footerLogo,
+  movieHome,
+  jayantahero,
+};

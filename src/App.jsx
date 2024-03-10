@@ -1,9 +1,7 @@
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Home from "./pages/home/Home";
-import { useDispatch } from "react-redux";
-import { setHome } from "./store/createSlice";
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ProtfolioPage from "./pages/portfolioPage/ProtfolioPage";
 
 function App() {
@@ -18,7 +16,6 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-      {/* <div style={{ height: "1200px" }}></div> */}
     </>
   );
 }

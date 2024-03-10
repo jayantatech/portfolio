@@ -28,6 +28,18 @@ import searchConsole from "./searchConsole.png";
 import googleAnalytics from "./googleAnalytics.png";
 import Typescript from "./typescriptimage.png";
 import NpmLogo from "./npmLogoimage.png";
+import wwwimage from "./wwwimage.png";
+import logoimage1 from "./logoimage1.png";
+import logoimage2 from "./logoimage2.png";
+import logoimage3 from "./logoimage3.png";
+import logoimage4 from "./logoimage4.png";
+import logoimage5 from "./logoimage5.png";
+import logoimage6 from "./logoimage6.png";
+import logoimage7 from "./logoimage7.png";
+import logoimage8 from "./logoimage8.png";
+import logoimage9 from "./logoimage9.png";
+import logoimage10 from "./logoimage10.png";
+import logoimage11 from "./logoimage11.png";
 
 export {
   jsIcon,
@@ -60,4 +72,16 @@ export {
   searchConsole,
   googleAnalytics,
   NpmLogo,
+  wwwimage,
+  logoimage1,
+  logoimage2,
+  logoimage3,
+  logoimage4,
+  logoimage5,
+  logoimage6,
+  logoimage7,
+  logoimage8,
+  logoimage9,
+  logoimage10,
+  logoimage11,
 };

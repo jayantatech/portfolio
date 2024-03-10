@@ -3,6 +3,17 @@ import { heroImg } from "../../../assets/images";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import MyImage from "../../../components/myImage/MyImage";
 import UseIntersectionObserver from "../../../hooks/UseIntersectionObserver";
+import {
+  logoimage1,
+  logoimage2,
+  logoimage3,
+  logoimage4,
+  logoimage5,
+  logoimage6,
+  logoimage7,
+  logoimage8,
+  wwwimage,
+} from "../../../assets/icons";
 
 const AboutSection = () => {
   const [load, SetLoad] = useState(false);
@@ -19,21 +30,49 @@ const AboutSection = () => {
       <div
         id="About"
         ref={sectionRef}
-        className="j w-full min-h-[540px] max-lg:min-h-[610px] max-md:min-h-[570px] md:my-16"
+        className="w-full min-h-[540px] h-[620px] max-lg:min-h-[610px] max-md:h-[1120px] md:my-8"
       >
         <ContentWrapper>
-          <div className={`j flex max-sm:pt-10 max-sm:flex-col-reverse gap-8 `}>
+          <div
+            className={`flex max-md:my-10 max-md:flex-col-reverse gap-2 items-center justify-center`}
+          >
             <div
-              className={`w-[50%] min-h-[100%] relative max-lg:w-[50%] max-sm:w-full  items-center justify-center  transition-all duration-1000 ${
+              className={`w-[40%] min-h-[600px] flex max-lg:w-[50%] max-sm:w-full  items-center justify-center  transition-all duration-1000 xl:p-8  ${
                 load ? "translate-x-0" : "-translate-x-[960px]"
-              }`}
+              }  `}
             >
-              <div className="bg-[#c9d5ff] w-[70%] my-0 mx-auto h-full flex items-center justify-center pt-5 rounded-t-full border-8 border-[#1c2031] shadow-2xl max-lg:w-[90%] max-lg:h-[70%] overflow-hidden">
+              {/* <div className=" relative bg-[#c9d5ff] w-[70%] my-0 mx-auto h-[530px] flex items-center justify-center pt-1 rounded-2xl border-4 border-[#1c2031] shadow-2xl max-lg:w-[90%] max-md:h-[530px] max-lg:h-[70%] overflow-hidden">
                 <MyImage
                   src={heroImg}
                   alt={"heroImg"}
-                  className={"w-[340px] max-sm:w-[580px]"}
+                  className={"w-[350px] max-md:w-[580px]"}
                 />
+              </div> */}
+              <div className="flex gap-4 flex-wrap items-center justify-center">
+                <div className=" w-[140px] h-[110px] bg-black shadow-lg hover:scale-95 transition-all duration-200 rounded-lg flex items-center justify-center">
+                  <MyImage src={logoimage1} className={"w-[110px]"} />
+                </div>
+                <div className=" w-[140px] h-[110px] bg-black shadow-lg hover:scale-95 transition-all duration-200 rounded-lg flex items-center justify-center">
+                  <MyImage src={logoimage2} className={"w-[110px]"} />
+                </div>
+                <div className=" w-[140px] h-[110px] bg-black shadow-lg hover:scale-95 transition-all duration-200 rounded-lg flex items-center justify-center">
+                  <MyImage src={logoimage3} className={"w-[110px]"} />
+                </div>
+                <div className=" w-[140px] h-[110px] bg-black shadow-lg hover:scale-95 transition-all duration-200 rounded-lg flex items-center justify-center">
+                  <MyImage src={logoimage4} className={"w-[110px]"} />
+                </div>
+                <div className=" w-[140px] h-[110px] bg-black shadow-lg hover:scale-95 transition-all duration-200 rounded-lg flex items-center justify-center">
+                  <MyImage src={logoimage5} className={"w-[110px]"} />
+                </div>
+                <div className=" w-[140px] h-[110px] bg-black shadow-lg hover:scale-95 transition-all duration-200 rounded-lg flex items-center justify-center">
+                  <MyImage src={logoimage6} className={"w-[110px]"} />
+                </div>
+                <div className=" w-[140px] h-[110px] bg-black shadow-lg hover:scale-95 transition-all duration-200 rounded-lg flex items-center justify-center">
+                  <MyImage src={logoimage7} className={"w-[110px]"} />
+                </div>
+                <div className=" w-[140px] h-[110px] bg-black shadow-lg hover:scale-95 transition-all duration-200 rounded-lg flex items-center justify-center">
+                  <MyImage src={logoimage8} className={"w-[110px]"} />
+                </div>
               </div>
             </div>
             <div

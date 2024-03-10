@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import SectionTitle from "../../../components/sectionTitle/SectionTitle";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
-import { jsIcon } from "../../../assets/icons";
 import KeySkillCard from "../../../components/keySkillCard/KeySkillCard";
 import home from "../../../assets/content";
-import { useSelector } from "react-redux";
 import UseIntersectionObserver from "../../../hooks/UseIntersectionObserver";
 
 const WhyMe = () => {

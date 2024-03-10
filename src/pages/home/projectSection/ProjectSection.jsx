@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import SectionTitle from "../../../components/sectionTitle/SectionTitle";
 import ProjectBar from "../../../components/projectBar/ProjectBar";

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
-import { css } from "../../../assets/icons";
 import UseIntersectionObserver from "../../../hooks/UseIntersectionObserver";
 import MyImage from "../../../components/myImage/MyImage";
 
