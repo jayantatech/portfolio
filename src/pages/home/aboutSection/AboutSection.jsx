@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { heroImg } from "../../../assets/images";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import MyImage from "../../../components/myImage/MyImage";
 import UseIntersectionObserver from "../../../hooks/UseIntersectionObserver";
@@ -12,7 +11,6 @@ import {
   logoimage6,
   logoimage7,
   logoimage8,
-  wwwimage,
 } from "../../../assets/icons";
 
 const AboutSection = () => {
@@ -41,13 +39,6 @@ const AboutSection = () => {
                 load ? "translate-x-0" : "-translate-x-[960px]"
               }  `}
             >
-              {/* <div className=" relative bg-[#c9d5ff] w-[70%] my-0 mx-auto h-[530px] flex items-center justify-center pt-1 rounded-2xl border-4 border-[#1c2031] shadow-2xl max-lg:w-[90%] max-md:h-[530px] max-lg:h-[70%] overflow-hidden">
-                <MyImage
-                  src={heroImg}
-                  alt={"heroImg"}
-                  className={"w-[350px] max-md:w-[580px]"}
-                />
-              </div> */}
               <div className="flex gap-4 flex-wrap items-center justify-center">
                 <div className=" w-[140px] h-[110px] bg-black shadow-lg hover:scale-95 transition-all duration-200 rounded-lg flex items-center justify-center">
                   <MyImage src={logoimage1} className={"w-[110px]"} />

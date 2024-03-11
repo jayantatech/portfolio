@@ -11,7 +11,6 @@ const UseIntersectionObserver = (callback, options) => {
       }
     }, options);
     if (targetRef.current) {
-      // console.log(targetRef.current);
       observer.observe(targetRef.current);
     }
     return () => observer.disconnect();

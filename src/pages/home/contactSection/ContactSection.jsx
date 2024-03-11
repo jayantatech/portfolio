@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import copy from "clipboard-copy";
-
 import { backgroundshape } from "../../../assets/icons";
 import UseIntersectionObserver from "../../../hooks/UseIntersectionObserver";
 
@@ -9,7 +8,6 @@ const ContactSection = () => {
   const [copyHover, setCopyHover] = useState(false);
   const [copyClick, setCopuClick] = useState(false);
   const [load, SetLoad] = useState(false);
-
   const handleCopy = async () => {
     const email = "jayantaPaikpara@gmail.com";
     try {
@@ -19,7 +17,6 @@ const ContactSection = () => {
       alert("Unable to copy email");
     }
   };
-
   useEffect(() => {
     if (copyClick) {
       setTimeout(() => {

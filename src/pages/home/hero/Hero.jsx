@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import MyImage from "../../../components/myImage/MyImage";
-import { heroImg, jayantahero } from "../../../assets/images";
+import { jayantahero } from "../../../assets/images";
 import { backgroundshape, backgroundshape3 } from "../../../assets/icons";
 import { smoothScroll } from "../../../utility/smoothScroll";
 import UseIntersectionObserver from "../../../hooks/UseIntersectionObserver";
@@ -22,7 +22,7 @@ const Hero = () => {
         <ContentWrapper>
           <div className="j flex max-sm:flex-col max-sm:pt-10 max-xl:pt-4">
             <div
-              className={`w-[60%] flex flex-col justify-center items-start min-h-[100%] max-lg:w-[70%] max-sm:w-full relative transition-all duration-1000 ${
+              className={`w-[60%] flex flex-col justify-center items-start xl:h-[670px] max-lg:w-[70%] max-sm:w-full relative transition-all duration-1000 bg-red-900 ${
                 scroll ? "translate-x-0" : "-translate-x-[200%]"
               } xl:pt-24`}
             >
@@ -102,10 +102,6 @@ const Hero = () => {
                   />
                 </span>
                 <div className="w-full h-full relative xl:translate-y-10 max-xl:translate-y-32 max-md:translate-y-24 xl:bottom-[-40px] ">
-                  {/* <MyImage
-                    src={heroImg}
-                    className="w-[440px] max-lg:w-[450px]"
-                  /> */}
                   <MyImage
                     src={jayantahero}
                     className=" xl:w-[810px] max-lg:w-[750px] max-lg:scale-125 max-xl:w-[770px] max-md:scale-[1.5]"

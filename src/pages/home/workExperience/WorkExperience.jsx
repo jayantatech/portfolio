@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import SectionTitle from "../../../components/sectionTitle/SectionTitle";
-import { useSelector } from "react-redux";
 import UseIntersectionObserver from "../../../hooks/UseIntersectionObserver";
 
 const WorkExperience = () => {

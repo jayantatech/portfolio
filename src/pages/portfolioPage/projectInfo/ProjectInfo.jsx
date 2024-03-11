@@ -14,8 +14,9 @@ const ProjectInfo = ({ data }) => {
       <ContentWrapper>
         <div className="grid md:grid-flow-col max-md:grid-flow-row  md:grid-cols-2">
           <div className=" max-md:row-span-1 col-span-1 py-3 pr-3">
-            {data.description.map((sec) => (
+            {data.description.map((sec, index) => (
               <div
+                key={sec?.secTitle}
                 className={`pb-4 transition-all ease-out duration-300 ${
                   load ? "translate-x-0" : "-translate-x-[160%]"
                 }`}
@@ -23,8 +24,10 @@ const ProjectInfo = ({ data }) => {
                 <h2 className=" text-xl font-bold uppercase py-2 font-[Roboto]">
                   {sec.secTitle}{" "}
                 </h2>
-                {sec.secDescription.map((praItem) => (
-                  <p className=" font-[poppins] py-1">{praItem.content}</p>
+                {sec.secDescription.map((praItem, index) => (
+                  <p key={index} className=" font-[poppins] py-1">
+                    {praItem.content}
+                  </p>
                 ))}
               </div>
             ))}
@@ -35,8 +38,11 @@ const ProjectInfo = ({ data }) => {
                 load ? "translate-x-0" : "translate-x-[150%]"
               }`}
             >
-              {data.siteInfo.map((item) => (
-                <div className=" w-full h-auto shadow-sm py-2 bg-white transition-all duration-200 hover:shadow-xl border-black mb-3 px-3 border rounded-lg ">
+              {data.siteInfo.map((item, index) => (
+                <div
+                  key={index}
+                  className=" w-full h-auto shadow-sm py-2 bg-white transition-all duration-200 hover:shadow-xl border-black mb-3 px-3 border rounded-lg "
+                >
                   <h3 className=" text-xl font-bold py-2">{item.title}</h3>
                   <span className=" font-semibold text-lg">
                     {item.description}
@@ -47,8 +53,11 @@ const ProjectInfo = ({ data }) => {
                 <div className=" w-full h-auto shadow-sm py-2 bg-white transition-all duration-200 hover:shadow-xl border-black mb-3 px-3 border rounded-lg ">
                   <h3 className=" text-xl font-bold py-2">{"Services"}</h3>
                   <span className=" font-semibold text-lg flex flex-row gap-2 flex-wrap">
-                    {data.siteServices.map((item) => (
-                      <span className="px-2 bg-[#262D43] text-white rounded-md">
+                    {data.siteServices.map((item, index) => (
+                      <span
+                        key={index}
+                        className="px-2 bg-[#262D43] text-white rounded-md"
+                      >
                         {item}
                       </span>
                     ))}
@@ -66,8 +75,11 @@ const ProjectInfo = ({ data }) => {
                   Technologies Used
                 </h2>
                 <div className=" py-3 flex flex-wrap flex-row gap-2 px-5">
-                  {data.technologies.map((item) => (
-                    <div className="flex items-center justify-center gap-1 bg-white px-2 py-1 rounded-lg shadow-lg transition-all duration-200 hover:shadow-2xl">
+                  {data.technologies.map((item, index) => (
+                    <div
+                      key={index}
+                      className="flex items-center justify-center gap-1 bg-white px-2 py-1 rounded-lg shadow-lg transition-all duration-200 hover:shadow-2xl"
+                    >
                       <MyImage
                         src={item.img}
                         alt={"css"}

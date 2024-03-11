@@ -8,8 +8,6 @@ import { projectSection } from "../../assets/content";
 const ProtfolioPage = () => {
   const { title } = useParams();
   const currentProect = projectSection.filter((data) => data.site === title);
-  // console.log(currentProect[0]);
-
   const newData = currentProect[0];
 
   return (

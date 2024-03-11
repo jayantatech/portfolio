@@ -9,7 +9,6 @@ const HeaderOptions = (item, showMenu, homeHeader) => {
     if (homeHeader && item === "Home") {
       Navigate("/");
     }
-    console.log(item);
   };
 
   return (
