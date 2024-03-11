@@ -1,11 +1,21 @@
 import React from "react";
 import ContentWrapper from "../contentWrapper/ContentWrapper";
-import { footerLogo } from "../../assets/images";
+import { footerLogo, jayantabiswasfile } from "../../assets/images";
 import { Link } from "react-router-dom";
 import MyImage from "../myImage/MyImage";
 import { smoothScroll } from "../../utility/smoothScroll";
 
 const Footer = () => {
+  const handleDownloadCV = () => {
+    const cvFile = jayantabiswasfile;
+
+    const link = document.createElement("a");
+    link.href = cvFile;
+    link.download = "jayanta_biswas_cv.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div className=" bg-black py-6 mt-12 ">
       <ContentWrapper>
@@ -57,7 +67,10 @@ const Footer = () => {
                 </a>
               </div>
               <div className="j flex flex-row h-[40px] gap-4 w-full items-center justify-evenly ">
-                <button className=" flex items-center justify-center px-3 py-2 bg-[#262D43] hover:bg-[#2C698D] text-white rounded-md w-full">
+                <button
+                  className=" flex items-center justify-center px-3 py-2 bg-[#262D43] hover:bg-[#2C698D] text-white rounded-md w-full"
+                  onClick={handleDownloadCV}
+                >
                   Download Cv
                   <span className="ml-2">
                     <i className="ri-download-2-line"></i>

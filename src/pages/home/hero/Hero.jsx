@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import MyImage from "../../../components/myImage/MyImage";
-import { jayantahero } from "../../../assets/images";
+import { jayantabiswasfile, jayantahero } from "../../../assets/images";
 import { backgroundshape, backgroundshape3 } from "../../../assets/icons";
 import { smoothScroll } from "../../../utility/smoothScroll";
 import UseIntersectionObserver from "../../../hooks/UseIntersectionObserver";
@@ -11,6 +11,17 @@ const Hero = () => {
   const sectionRef = UseIntersectionObserver(() => {
     setScroll(true);
   });
+
+  const handleDownloadCV = () => {
+    const cvFile = jayantabiswasfile;
+
+    const link = document.createElement("a");
+    link.href = cvFile;
+    link.download = "jayanta_biswas_cv.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <div className="overflow-hidden">
@@ -22,7 +33,7 @@ const Hero = () => {
         <ContentWrapper>
           <div className="j flex max-sm:flex-col max-sm:pt-10 max-xl:pt-4">
             <div
-              className={`w-[60%] flex flex-col justify-center items-start xl:h-[670px] max-lg:w-[70%] max-sm:w-full relative transition-all duration-1000 bg-red-900 ${
+              className={`w-[60%] flex flex-col justify-center items-start xl:h-[670px] max-lg:w-[70%] max-sm:w-full relative transition-all duration-1000  ${
                 scroll ? "translate-x-0" : "-translate-x-[200%]"
               } xl:pt-24`}
             >
@@ -71,7 +82,10 @@ const Hero = () => {
                 </span>
               </div>
               <div className="j pt-[50px] flex flex-row max-lg:py-[12px] max-sm:pt-10 max-sm:w-full max-sm:justify-between">
-                <button className=" mr-[75px] bg-[#272643] py-3 px-6 text-[16px] font-bold font-[poppins] rounded-md max-lg:mr-[20px] max-xl:text-[16px] max-lg:w-[190px] transition-all text-white hover:bg-[#2c698d] max-sm:mr-2 max-sm:px-4">
+                <button
+                  className=" mr-[75px] bg-[#272643] py-3 px-6 text-[16px] font-bold font-[poppins] rounded-md max-lg:mr-[20px] max-xl:text-[16px] max-lg:w-[190px] transition-all text-white hover:bg-[#2c698d] max-sm:mr-2 max-sm:px-4"
+                  onClick={handleDownloadCV}
+                >
                   Download Cv
                   <span className="ml-2">
                     <i className="ri-download-2-line"></i>

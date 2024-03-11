@@ -5,6 +5,7 @@ import projectImg from "./projectImg.png";
 import botwavetech from "./botwavetech.png";
 import movieHome from "./movieHome.png";
 import jayantahero from "./jayantaheroimage.png";
+import jayantabiswasfile from "./jayantabiswasfile.pdf";
 export {
   logo,
   botwavetech,
@@ -13,4 +14,5 @@ export {
   footerLogo,
   movieHome,
   jayantahero,
+  jayantabiswasfile,
 };
